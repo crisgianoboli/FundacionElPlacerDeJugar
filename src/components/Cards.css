@@ -1,0 +1,23 @@
+.cards {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cards-img {
+  height: 250px;
+}
+
+.cards-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btn-card {
+  width: 300px;
+  font-family: Roboto;
+  text-transform: uppercase;
+}
