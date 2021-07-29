@@ -1,4 +1,4 @@
-.Ubication-content {
+.ubication-content {
   width: 100%;
   height: 500px;
   display: flex;
@@ -21,4 +21,20 @@
 .logo-lp {
   width: 200px;
   height: 250px;
+}
+
+.ubication {
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .ubication-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ubication {
+    width: 100%;
+    padding: 30px;
+  }
 }
