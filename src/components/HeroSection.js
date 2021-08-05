@@ -11,7 +11,9 @@ function HeroSection() {
       <CarouselItem />
 
       <div className="hero-title-content">
-        <h2>El Placer de Jugar</h2>
+        <h2 animate__animated animate__rubberBand>
+          El Placer de Jugar
+        </h2>
         <p>
           12 AÑOS COLABORANDO CON LA SOCIABILIZACION DE JOVENES
           <br />Y NIÑOS CON AUTISMO A TRAVES DE JUEGOS EN GRUPO Y EL DEPORTE

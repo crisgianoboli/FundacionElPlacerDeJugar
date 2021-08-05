@@ -1,18 +1,21 @@
-import React from 'react';
-import { GoogleMap, withScriptjs, withGoogleMap } from "react-google-maps"
+import React from "react";
+import { MapContainer, Marker, TileLayer } from "react-leaflet";
 
-const Map = (props) => {
-
-    return (
-        <GoogleMap 
-        defaultZoom={10}
-        defaultCenter={ { lat: -31.40410, lng: -64.23905}}
+const DEFAULT_LONGITUDE = -64.23866378716403;
+const DEFAULT_LATITUDE = -31.403994252073012;
+function MapBasic() {
+  const position = [DEFAULT_LATITUDE, DEFAULT_LONGITUDE];
+  return (
+    <>
+      <MapContainer center={position} zoom={16}>
+        <TileLayer
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         />
-    )
+        <Marker position={position}></Marker>
+      </MapContainer>
+    </>
+  );
 }
 
-export default withScriptjs(
-    withGoogleMap(
-        Map
-    )
-);
+export default MapBasic;

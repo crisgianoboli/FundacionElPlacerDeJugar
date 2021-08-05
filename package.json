@@ -7,10 +7,14 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^5.0.2",
-    "react": "^16.13.1",
+    "install": "^0.13.0",
+    "leaflet": "^1.7.1",
+    "npm": "^7.20.4",
+    "react": "^16.14.0",
     "react-bootstrap": "^2.0.0-beta.4",
-    "react-dom": "^16.13.1",
-    "react-google-maps": "^9.4.5",
+    "react-dom": "^16.14.0",
+    "react-geolocated": "^3.2.0",
+    "react-leaflet": "^3.2.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1"
   },
@@ -23,16 +27,14 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
+  "development": [
+    "last 1 chrome version",
+    "last 1 firefox version",
+    "last 1 safari version"
+  ]
 }

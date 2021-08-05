@@ -125,9 +125,14 @@ function Footer() {
               />
             </Link>
           </div>
-          <small class="website-rights">
+          <p class="website-rights">
+            <span> Club Atletico Las Palmas </span>
+            <br />
+            <span> Juan Garcia Martinez 325 B° Las Palmas </span>
+            <br />
+            <span>Cordoba, Cordoba, Argentina</span> <br />
             Fundacion El Placer de Jugar © 2021
-          </small>
+          </p>
         </div>
       </section>
     </div>

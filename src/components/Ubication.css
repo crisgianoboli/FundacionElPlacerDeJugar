@@ -27,6 +27,11 @@
   width: 50%;
 }
 
+.leaflet-container {
+  width: 50%;
+  height: 300px;
+}
+
 @media screen and (max-width: 768px) {
   .ubication-content {
     display: flex;
