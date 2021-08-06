@@ -27,6 +27,29 @@
   font-size: 20px;
 }
 
+/* cards work */
+
+.cards-work {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(181, 227, 28);
+}
+
+.card-title {
+  color: rgb(53, 118, 215);
+  text-align: center;
+  font-size: 34px;
+}
+
+.card-text {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 17px;
+  color: gray;
+}
+
 @media screen and (max-width: 768px) {
   .cards {
     display: flex;

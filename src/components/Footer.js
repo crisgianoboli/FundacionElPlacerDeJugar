@@ -119,7 +119,7 @@ function Footer() {
           <div class="footer-logo">
             <Link to="/" className="social-logo">
               <img
-                className="navbar-logo"
+                className="footer-logo"
                 src={Logo}
                 alt="Logo el placer de jugar"
               />

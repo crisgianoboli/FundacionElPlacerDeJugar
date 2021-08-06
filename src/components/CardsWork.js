@@ -1,29 +1,35 @@
 import React from "react";
 import "./Cards.css";
-import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
-import img1 from "../img/img1.jpg";
 import img2 from "../img/img2.jpg";
-import img3 from "../img/img3.jpg";
 
 function CardsWorks() {
   return (
     <>
-      <div className="cards">
-        <Card border="info" style={{ width: "20rem" }}>
-          {/* <Card.Img className="cards-img" src={img1} /> */}
-          <Card.Title>Actividades Semanales </Card.Title>
-          <Card.ImgOverlay className="cards-overlay"></Card.ImgOverlay>
+      <div className="cards-work">
+        <Card border="info" style={{ width: "20rem", height: "250px" }}>
+          <h3 className="card-title">Actividades Semanales </h3>
+          <Card.Text className="card-text">
+            A traves de diversas acciones los jovenes y niños se vincuylan y
+            relacionan, siempre jugando; ya sea en la pileta climatizada (con
+            juego y aprendizajes de natacion), actividades deportivas y juegos,
+            musicoterapia y complementando siempre con alguna salida o actividad
+            especial.
+          </Card.Text>
         </Card>
 
-        <Card border="info" style={{ width: "20rem" }}>
+        <Card border="info" style={{ width: "20rem", height: "250px" }}>
           <Card.Img className="cards-img" src={img2} />
         </Card>
 
-        <Card border="info" style={{ width: "20rem" }}>
-          {/* <Card.Img className="cards-img" src={img3} /> */}
-          <Card.Title>Horarios </Card.Title>
-          <Card.ImgOverlay className="cards-overlay"></Card.ImgOverlay>
+        <Card border="info" style={{ width: "20rem", height: "250px" }}>
+          <h3 className="card-title">Horarios </h3>
+          <Card.Text className="card-text">
+            Natacion: Martes y jueves de 10 a 11 hs y de 16 a 17 hs. <br />
+            Musicoterapia: Miercoles de 19 a 20 hs. <br />
+            Juegos deportivos: Jueves de 19 a 20 hs. <br />
+            Juegos en pileta y gimnasio: Sabado de 10 a 13 hs.
+          </Card.Text>
         </Card>
       </div>{" "}
     </>

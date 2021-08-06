@@ -14,15 +14,6 @@ const Ubication = () => {
       </div>
 
       <Map />
-
-      {/* <Map
-        googleMapURL={mapUrl}
-        containerElement={
-          <div className="ubication" style={{ height: "300px" }} />
-        }
-        mapElement={<div style={{ height: "100%" }} />}
-        loadingElement={<p>Cargando</p>}
-      /> */}
     </div>
   );
 };
