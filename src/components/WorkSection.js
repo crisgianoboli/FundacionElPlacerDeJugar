@@ -1,5 +1,5 @@
 import React from "react";
-import imagenWork from "../img/img1.jpg";
+import imagenWork from "../img/img1.jpeg";
 import "./WorkSection.css";
 
 function WorkSection() {

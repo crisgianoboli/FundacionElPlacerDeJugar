@@ -1,7 +1,7 @@
 import React from "react";
 import "./Cards.css";
 import Card from "react-bootstrap/Card";
-import img2 from "../img/img2.jpg";
+import img2 from "../img/img2.jpeg";
 
 function CardsWorks() {
   return (

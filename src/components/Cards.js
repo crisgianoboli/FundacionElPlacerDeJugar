@@ -3,9 +3,9 @@ import "./Cards.css";
 import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import img1 from "../img/img1.jpg";
-import img2 from "../img/img2.jpg";
-import img3 from "../img/img3.jpg";
+import img1 from "../img/img1.jpeg";
+import img2 from "../img/img3.jpeg";
+import img3 from "../img/img2.jpeg";
 
 function Cards() {
   return (

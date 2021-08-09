@@ -58,8 +58,20 @@
 /* Social Icons */
 
 .social-icon-link {
-  color: #fff;
-  font-size: 24px;
+  color: blue;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.social-icon-link:hover {
+  color: #1be900;
 }
 
 .social-media {
