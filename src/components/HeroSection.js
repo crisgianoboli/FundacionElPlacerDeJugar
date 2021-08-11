@@ -1,19 +1,17 @@
 import React from "react";
 import CarouselItem from "./CarouselItem";
 import "./HeroSection.css";
+import TextAnimation from "react-animate-text";
 
 function HeroSection() {
   return (
     <div className="hero-container">
-      {/* Ver si poner titulo o no */}
-      {/* <h1>El Placer de Jugar</h1>  */}
-
       <CarouselItem />
 
       <div className="hero-title-content">
-        <h2 animate__animated animate__rubberBand>
-          El Placer de Jugar
-        </h2>
+        <TextAnimation>
+          <h1>El Placer de Jugar</h1>
+        </TextAnimation>
         <p>
           12 AÑOS COLABORANDO CON LA SOCIABILIZACION DE JOVENES
           <br />Y NIÑOS CON AUTISMO A TRAVES DE JUEGOS EN GRUPO Y EL DEPORTE

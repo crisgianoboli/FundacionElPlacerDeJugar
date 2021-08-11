@@ -3,21 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@moxy/react-animate-text": "^1.0.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "animate.css": "^4.1.1",
     "bootstrap": "^5.0.2",
     "install": "^0.13.0",
     "leaflet": "^1.7.1",
     "npm": "^7.20.4",
     "react": "^16.14.0",
+    "react-animate-text": "^0.4.0",
     "react-bootstrap": "^2.0.0-beta.4",
     "react-dom": "^16.14.0",
     "react-geolocated": "^3.2.0",
     "react-leaflet": "^3.2.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "rxjs": "^7.3.0"
   },
+  "homepage": "http://fundacionelplacerdejugar.prueba.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

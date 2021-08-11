@@ -40,8 +40,11 @@
     flex-direction: column;
   }
 
-  .ubication {
-    width: 100%;
-    padding: 30px;
+  .logo-content {
+    margin-bottom: 20px;
+  }
+
+  .leaflet-container {
+    width: 70%;
   }
 }

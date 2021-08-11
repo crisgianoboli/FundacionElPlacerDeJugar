@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import Logo from "../img/Logo EPDJ.png";
 
@@ -29,7 +28,7 @@ function Footer() {
       </section> */}
 
       <div class="footer-links">
-        <div class="social-icons">
+        {/* <div class="social-icons">
           <Link
             class="social-icon-link facebook"
             to="/"
@@ -70,7 +69,7 @@ function Footer() {
           >
             <i class="fab fa-linkedin" />
           </Link>
-        </div>
+        </div> */}
 
         <div className="footer-link-wrapper">
           <div class="footer-link-items">

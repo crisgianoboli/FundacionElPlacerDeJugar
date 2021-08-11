@@ -7,10 +7,17 @@
 
 /* Autismo */
 
-.autismo-container {
+.autismo {
   width: 100%;
   background-color: rgba(53, 118, 215, 255);
-  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.autismo-container {
+  width: 100%;
+  min-height: 75vh;
 }
 
 .autismo-image {
@@ -26,4 +33,108 @@
   position: absolute;
   z-index: 10;
   padding: 30px 50px;
+}
+
+.autismo-content {
+  color: white;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.autismo-content h3 {
+  color: rgb(176, 223, 47);
+  font-size: 45px;
+}
+
+.autismo-content-definition {
+  width: 100%;
+  display: flex;
+}
+
+.autismo-content-definition p {
+  letter-spacing: 1.2px;
+  font-size: 15px;
+}
+
+.autismo-content-definition-left {
+  width: 50%;
+  padding: 20px;
+}
+
+.autismo-content-definition-right {
+  width: 50%;
+  padding: 20px;
+}
+
+.more-info {
+  width: 100%;
+  color: rgb(13, 17, 243);
+  background-color: white;
+  border-radius: 50px;
+}
+
+.more-info h4 {
+  color: rgb(176, 223, 47);
+  text-align: center;
+}
+
+.more-info p {
+  text-align: center;
+  letter-spacing: 1.1px;
+  color: gray;
+}
+
+.signal-image-content {
+  width: 100%;
+  background-color: white;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signal-image-content h3 {
+  color: rgb(13, 17, 243);
+  padding-bottom: 20px;
+  font-size: 45px;
+}
+
+.signal-image {
+  width: 950px;
+  height: 600px;
+  border: 1px solid rgb(176, 223, 47);
+}
+
+@media screen and (max-width: 768px) {
+  .autismo-content-definition {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .autismo-content-definition-left {
+    width: 95%;
+  }
+
+  .autismo-content-definition-right {
+    width: 95%;
+  }
+  .signal-image {
+    width: 100%;
+  }
+
+  .more-info h4 {
+    padding-top: 10px;
+  }
+
+  .signal-image-content h3 {
+    margin-left: 0;
+  }
+
+  .signal-image {
+    width: 100%;
+    height: auto;
+    border: none;
+  }
 }

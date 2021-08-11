@@ -10,12 +10,15 @@ import Agenda from "./components/pages/Agenda";
 import Contacto from "./components/pages/Contacto";
 import Dona from "./components/pages/Dona";
 import Footer from "./components/Footer";
+import { SocialMedia } from "./components/SocialMedia";
 
 function App() {
   return (
     <>
       <Router>
         <Navbar />
+
+        <SocialMedia />
 
         <Switch>
           <Route path="/" exact component={Home} />

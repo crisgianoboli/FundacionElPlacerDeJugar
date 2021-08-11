@@ -1,13 +1,16 @@
 import React from "react";
 import imagenWork from "../img/img1.jpeg";
 import "./WorkSection.css";
+import TextAnimation from "react-animate-text";
 
 function WorkSection() {
   return (
     <div className="work-container">
       <div className="work-title-content">
         <img src={imagenWork} alt="imagen trabajando" className="work-img" />
-        <h2 className="work-title">¿ Que hacemos ?</h2>
+        <TextAnimation>
+          <h2 className="work-title">¿ Que hacemos ?</h2>
+        </TextAnimation>
       </div>
 
       <div className="work-content">
