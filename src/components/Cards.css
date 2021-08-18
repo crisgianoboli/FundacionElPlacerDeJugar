@@ -30,6 +30,7 @@
 /* cards work */
 
 .cards-work {
+  height: 360px;
   padding: 20px 0;
   display: flex;
   justify-content: space-around;
@@ -58,5 +59,20 @@
 
   .card {
     margin: 20px 0;
+  }
+
+  .cards-work {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .travel-title {
+    width: 75%;
+  }
+
+  .travels-content-container {
+    width: 75%;
+    height: 90vh;
   }
 }
