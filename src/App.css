@@ -106,6 +106,58 @@
   border: 1px solid rgb(176, 223, 47);
 }
 
+/* Slide transition entre reportes */
+
+/* .alert-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.alert-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 800ms, transform 800ms;
+}
+.alert-exit {
+  opacity: 1;
+}
+.alert-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 800ms, transform 800ms;
+} */
+
+.pageSlider-enter {
+  transform: translate3d(100%, 0, 0);
+}
+
+.pageSlider-enter.pageSlider-enter-active {
+  transform: translate3d(0, 0, 0);
+  transition: all 800ms;
+}
+.pageSlider-exit {
+  transform: translate3d(0, 0, 0);
+}
+
+.pageSlider-exit.pageSlider-exit-active {
+  transform: translate3d(-100%, 0, 0);
+  transition: all 800ms;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 1000ms;
+}
+
 @media screen and (max-width: 768px) {
   .autismo-content-definition {
     width: 100%;
