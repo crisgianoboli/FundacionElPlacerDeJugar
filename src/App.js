@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import Navbar from "./components/Navbar";
 import "./App.css";
 import Home from "./components/pages/Home";
@@ -21,31 +21,33 @@ function App() {
         <ScrollToTop />
         <Navbar />
         <SocialMedia />
-        <Route
-          render={({ location }) => {
-            return (
-              <>
-                <TransitionGroup>
-                  <CSSTransition
-                    key={location.pathname}
-                    classNames="pageSlider"
-                    timeout={800}
-                  >
-                    <Switch location={location}>
-                      <Route path="/" exact component={Home} />
-                      <Route path="/Autismo" component={Autismo} />
-                      <Route path="/About" component={About} />
-                      <Route path="/Work" component={Work} />
-                      <Route path="/Agenda" component={Agenda} />
-                      <Route path="/Contacto" component={Contacto} />
-                      <Route path="/Donate" component={Dona} />
-                    </Switch>
-                  </CSSTransition>
-                </TransitionGroup>
-              </>
-            );
-          }}
-        />
+        <Suspense fallback={<div>Cargando...</div>}>
+          <Route
+            render={({ location }) => {
+              return (
+                <>
+                  <TransitionGroup>
+                    <CSSTransition
+                      key={location.pathname}
+                      classNames="pageSlider"
+                      timeout={800}
+                    >
+                      <Switch location={location}>
+                        <Route path="/" exact component={Home} />
+                        <Route path="/Autismo" component={Autismo} />
+                        <Route path="/About" component={About} />
+                        <Route path="/Work" component={Work} />
+                        <Route path="/Agenda" component={Agenda} />
+                        <Route path="/Contacto" component={Contacto} />
+                        <Route path="/Donate" component={Dona} />
+                      </Switch>
+                    </CSSTransition>
+                  </TransitionGroup>
+                </>
+              );
+            }}
+          />
+        </Suspense>
         <Footer />
       </HashRouter>
     </>

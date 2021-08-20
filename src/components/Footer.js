@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
@@ -73,42 +74,51 @@ function Footer() {
 
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
-            <Link to="/sign-up">
+            <a
+              href="https://es-la.facebook.com/elplacerdejugar2010/"
+              target="_blank"
+            >
               <i class="fab fa-facebook-f" />
               Fundacion El Placer de Jugar
-            </Link>
+            </a>
 
-            <Link to="/">
+            <a
+              href="https://www.instagram.com/elplacerdejugar/"
+              target="_blank"
+            >
               <i class="fab fa-instagram" />
               @elplacerdejugar
-            </Link>
+            </a>
 
-            <Link to="/">
+            <a href="/" target="_blank">
               <i class="fab fa-twitter" />
               @fundacionelplacerdejugar
-            </Link>
+            </a>
 
-            <Link to="/">
+            <a
+              href="https://www.youtube.com/channel/UCgruNdqqyfqppfY-OTEgmVw"
+              target="_blank"
+            >
               <i class="fab fa-youtube" />
               Autismo - Fundacion El Placer de Jugar
-            </Link>
+            </a>
           </div>
 
           <div class="footer-link-items">
-            <Link to="/">
+            <a href="https://wa.link/u4g97n" target="_blank">
               <i class="fab fa-whatsapp" />
               351 6188735
-            </Link>
+            </a>
 
-            <Link to="/">
+            <a href="/" target="_blank">
               <i class="far fa-envelope" />
               elplacerdejugar2010@gmail.com
-            </Link>
+            </a>
 
-            <Link to="/">
+            <a href="/" target="_blank">
               <i class="fab fa-linkedin" />
               Fundacion El Placer de Jugar
-            </Link>
+            </a>
           </div>
         </div>
       </div>
