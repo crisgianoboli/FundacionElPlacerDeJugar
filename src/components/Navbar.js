@@ -90,8 +90,7 @@ function Navbar() {
           </ul>
 
           {button && (
-            <Link to="/Donate" className="nav-links" onClick={closeMobileMenu}>
-              {/* <i class="fas fa-user-friends nav-links"></i> */}
+            <Link to="/Donate">
               <button className="btn-donate">Doná</button>
             </Link>
           )}

@@ -25,8 +25,9 @@ function CardsWorks() {
         <Card border="info" style={{ width: "20rem", height: "250px" }}>
           <h3 className="card-title">Horarios </h3>
           <Card.Text className="card-text">
-            Natacion: Martes y jueves de 10 a 11 hs y de 16 a 17 hs. <br />
-            Musicoterapia: Miercoles de 19 a 20 hs. <br />
+            Natacion: Jueves de 10 a 11 hs y Martes y jueves de 16 a 17 hs.{" "}
+            <br />
+            Musicoterapia: Miercoles de 18 a 19 hs. <br />
             Juegos deportivos: Jueves de 19 a 20 hs. <br />
             Juegos en pileta y gimnasio: Sabado de 10 a 13 hs.
           </Card.Text>

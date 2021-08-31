@@ -83,7 +83,7 @@ const About = () => {
           </div>
           <div className="title-content">
             <h2>Gustavo Eguiguren</h2>
-            <h4>Director de la fundación</h4>
+            <h4>Presidente de la fundación</h4>
           </div>
           <div className="description-president">
             <p>
@@ -124,7 +124,7 @@ const About = () => {
               <h4>Coordinador General y Secretario</h4>
               <p>
                 {" "}
-                Profesor de Educacoón fisica y acompañantes terapeutico (AT).
+                Profesor de Educación fisica y acompañantes terapeutico (AT).
                 Encargado del area social y educativa, del desarrollo y puesta
                 en marcha de las actividades semanales que se realizan en la
                 fundación.

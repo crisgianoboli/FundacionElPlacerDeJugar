@@ -21,9 +21,9 @@ export const SocialMedia = () => {
         <i class="fab fa-instagram" />
       </a>
 
-      <a href="/" target="_blank" className="icon">
+      {/* <a href="/" target="_blank" className="icon">
         <i class="fab fa-twitter" />
-      </a>
+      </a> */}
 
       <a
         href="https://www.youtube.com/channel/UCgruNdqqyfqppfY-OTEgmVw"
@@ -33,7 +33,7 @@ export const SocialMedia = () => {
         <i class="fab fa-youtube" />
       </a>
 
-      <a href="https://wa.link/u4g97n" target="_blank" className="icon">
+      <a href="https://wa.link/9u56zs" target="_blank" className="icon">
         <i class="fab fa-whatsapp"></i>
       </a>
 
@@ -41,9 +41,9 @@ export const SocialMedia = () => {
         <i class="far fa-envelope"></i>
       </a>
 
-      <a href="#linkedin" target="_blank" className="icon">
+      {/* <a href="#linkedin" target="_blank" className="icon">
         <i class="fab fa-linkedin" />
-      </a>
+      </a> */}
     </div>
   );
 };
