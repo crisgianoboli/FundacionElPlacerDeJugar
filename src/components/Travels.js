@@ -1,6 +1,6 @@
 import React from "react";
 import imagenTravel from "../img/img3.jpeg";
-import imagenTravels from "../img/img2.jpeg";
+import imagenTravels from "../img/travel.jpg";
 import "./WorkSection.css";
 
 const Travels = () => {

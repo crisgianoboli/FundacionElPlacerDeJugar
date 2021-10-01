@@ -69,16 +69,8 @@ function Navbar() {
                 ¿Que hacemos?
               </Link>
             </li>
-            {/*  <li className="nav-item">
-              <Link
-                to="/Agenda"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Agenda
-              </Link>
-            </li>
-            <li className="nav-item">
+
+            {/*<li className="nav-item">
               <Link
                 to="/Contacto"
                 className="nav-links"

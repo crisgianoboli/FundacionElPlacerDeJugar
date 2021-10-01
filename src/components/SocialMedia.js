@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
+import { Link } from "react-router-dom";
 import "./SocialMedia.css";
 
 export const SocialMedia = () => {
@@ -44,6 +45,9 @@ export const SocialMedia = () => {
       {/* <a href="#linkedin" target="_blank" className="icon">
         <i class="fab fa-linkedin" />
       </a> */}
+      <Link to="/Donate" className="icon">
+        <i class="fas fa-donate"></i>
+      </Link>
     </div>
   );
 };

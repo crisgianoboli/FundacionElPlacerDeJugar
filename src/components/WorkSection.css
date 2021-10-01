@@ -33,6 +33,7 @@
 
 .work-content {
   width: 100%;
+  height: 170px;
   color: white;
   font-size: 22px;
   padding: 10px 40px;
@@ -92,8 +93,14 @@
 }
 
 @media screen and (max-width: 768px) {
+  .work-content {
+    height: 380px;
+    display: flex;
+    align-items: center;
+  }
+
   .travel-title {
-    width: 75%;
+    width: 80%;
   }
 
   .travels-content {

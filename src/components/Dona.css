@@ -78,3 +78,26 @@
   width: 200px;
   height: 200px;
 }
+
+@media screen and (max-width: 768px) {
+  .dona {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-content {
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-content {
+    width: 100%;
+    padding-top: 50px;
+  }
+}
