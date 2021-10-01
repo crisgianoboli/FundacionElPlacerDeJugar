@@ -1,6 +1,7 @@
 import React from "react";
-import autismoImage from "../../img/img5.jpeg";
 import "../../App.css";
+
+import autismoImage from "../../img/autismo1.jpeg";
 import TextAnimation from "react-animate-text";
 import signalImage from "../../img/Señales de alerta.jpg";
 

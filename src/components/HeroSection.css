@@ -2,11 +2,15 @@
   width: 100%;
   background-color: rgba(53, 118, 215, 255);
   min-height: 90vh;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
 }
 
 .hero-title-content {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -16,24 +20,23 @@
 
 .carousel {
   width: 100%;
-  height: 100%;
+  height: 90vh;
 }
 
 .carousel-img {
   width: 100%;
-  height: 450px;
+  height: 90vh;
 }
 
 .hero-title-content h1 {
-  font-size: 54px;
+  font-size: 56px;
   color: rgb(176, 223, 47);
   text-shadow: 2px 2px rgb(13, 17, 243);
   font-family: "Patrick Hand", cursive;
 }
 
 .hero-title-content p {
-  width: 50%;
-  margin-top: 8px;
+  width: 100%;
   color: white;
   font-size: 27px;
   text-align: center;
@@ -58,14 +61,26 @@
     align-items: center;
   }
 
+  .carousel {
+    height: 45vh;
+  }
+
+  .carousel-img {
+    height: 45vh;
+  }
+
   .hero-title-content {
     margin: 40px 0;
     display: flex;
     flex-direction: column;
   }
 
+  .hero-title-content h1 {
+    font-size: 52px;
+  }
+
   .hero-container p {
     width: 90%;
-    font-size: 20px;
+    font-size: 23px;
   }
 }

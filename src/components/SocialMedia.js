@@ -33,7 +33,7 @@ export const SocialMedia = () => {
         <i class="fab fa-youtube" />
       </a>
 
-      <a href="https://wa.link/9u56zs" target="_blank" className="icon">
+      <a href="https://wa.link/hfnttt" target="_blank" className="icon">
         <i class="fab fa-whatsapp"></i>
       </a>
 

@@ -3,16 +3,17 @@ import "./Cards.css";
 import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import img1 from "../img/img1.jpeg";
-import img2 from "../img/img3.jpeg";
-import img3 from "../img/img2.jpeg";
+
+import autismo from "../img/autismo.jpg";
+import fundacion from "../img/img1.jpeg";
+import equipo from "../img/equipo.JPG";
 
 function Cards() {
   return (
     <>
       <div className="cards">
         <Card border="info" style={{ width: "20rem" }}>
-          <Card.Img className="cards-img" src={img1} />
+          <Card.Img className="cards-img" src={autismo} />
           <Card.ImgOverlay className="cards-overlay">
             {/* <Card.Title>Titutlo o texto para cards</Card.Title> */}
             <Link to="/Autismo">
@@ -28,7 +29,7 @@ function Cards() {
         </Card>
 
         <Card border="info" style={{ width: "20rem" }}>
-          <Card.Img className="cards-img" src={img2} />
+          <Card.Img className="cards-img" src={fundacion} />
           <Card.ImgOverlay className="cards-overlay">
             <Link to="/Work">
               <Button
@@ -43,7 +44,7 @@ function Cards() {
         </Card>
 
         <Card border="info" style={{ width: "20rem" }}>
-          <Card.Img className="cards-img" src={img3} />
+          <Card.Img className="cards-img" src={equipo} />
           <Card.ImgOverlay className="cards-overlay">
             <Link to="/About">
               <Button

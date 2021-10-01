@@ -22,7 +22,7 @@
 
 .about-image {
   width: 100%;
-  height: 290px;
+  height: 400px;
 }
 
 .about-text-container {
@@ -181,6 +181,26 @@
 @media screen and (max-width: 768px) {
   .about-title {
     padding: 0;
+  }
+
+  .about-image {
+    height: 45vh;
+  }
+
+  .team-image {
+    height: 40vh;
+  }
+
+  .team-title {
+    padding: 190px 10px;
+  }
+
+  .team-family {
+    padding: 180px 0px;
+  }
+
+  .family-content {
+    height: 45vh;
   }
 
   .about-text-container {

@@ -64,7 +64,7 @@ function Footer() {
           <div class="footer-link-items">
             <a href="https://wa.link/u4g97n" target="_blank">
               <i class="fab fa-whatsapp" />
-              351 6188735
+              +54 9 3517 58-8383
             </a>
 
             <a href="/" target="_blank">
