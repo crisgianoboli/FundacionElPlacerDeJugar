@@ -9,13 +9,13 @@ import familyImage from "../../img/familia.jpg";
 /* Imagenes team */
 import presidentImg from "../../img/team/gustavo.JPG";
 import LucasImg from "../../img/team/Lucas.JPG";
-import PatriciaImg from "../../img/team/Patricia.JPG";
-import LuisImg from "../../img/team/Luis.JPG";
-import miguelImg from "../../img/team/Miguel.JPG";
-import pedroImg from "../../img/team/Pedro.JPG";
-import gabrielImg from "../../img/team/Gabriel.JPG";
-import giselaImg from "../../img/team/Gisela.JPG";
-import gasparImg from "../../img/team/Gaspar.JPG";
+import PatriciaImg from "../../img/team/patricia.JPG";
+import LuisImg from "../../img/team/luis.JPG";
+import miguelImg from "../../img/team/miguel.JPG";
+import pedroImg from "../../img/team/pedro.JPG";
+import gabrielImg from "../../img/team/gabriel.JPG";
+import giselaImg from "../../img/team/gisela.JPG";
+import gasparImg from "../../img/team/gaspar.JPG";
 import lourdesImg from "../../img/team/Lourdes.JPG";
 
 const About = () => {
