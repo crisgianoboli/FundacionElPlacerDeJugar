@@ -23,7 +23,7 @@
     "react-transition-group": "^4.4.2",
     "rxjs": "^7.3.0"
   },
-  "homepage": "http://fundacionelplacerdejugar.prueba.com",
+  "homepage": "http://fundacionelplacerdejugar.com.ar",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
